@@ -64,7 +64,7 @@ export const projects = [
     github: "https://github.com/Jpcjo/SingleProudct-Page-Component",
     title: "Product Page Component",
     tools: "HTML&CSS | Javascript | React | Redux | Tailwind",
-    text: "Built from scratch, no libraries. This project concentrates on a sneaker product page that contains multiple interactive components, such as products, reviews and more.  ",
+    text: "Built from scratch, no libraries. This project focuses on a sophisticated sneaker product page, encompassing various interactive components, including detailed product information, Q&A features, customer reviews, and additional functionalities. ",
     highlights:
       "carousel | modal slides | products selection & display  | Q&A accordion | product card slides | review search & filter functions | pagination",
   },
@@ -76,7 +76,7 @@ export const projects = [
     title: "CRUD Review",
     tools:
       "HTML&CSS | Javascript | React/React-Router-Dom | Redux | Tailwind | Toastify",
-    text: "This CRUD review app aims for users to create, update, and delete personal reviews base on their unique log-in details. Built from scratch, no libraries.  ",
+    text: "This CRUD app for managing user reviews is designed to enable the creation, modification, and deletion of personalized reviews based on individual login credentials. Built from scratch, no libraries.  ",
     highlights:
       "Tabs | copy to clipboard | business hour formats basing on local-time | user log-in & log-out & registration | local storage user details & inputs | review filter | pagination | image slides | modals",
   },
@@ -87,8 +87,9 @@ export const projects = [
     github: "https://github.com/Jpcjo/birk-products-filter",
     title: "Products Filter Component",
     tools: "HTML&CSS | Javascript | React | Redux | Tailwind ",
-    text: "Built from scratch, no libraries. Introducing a dynamic React component tailored for product filtering, empowering users to easily navigate and refine their footwear choices with precision and efficiency. ",
-    highlights: "",
+    text: "Built from scratch, no libraries. Introducing this dynamic React component tailored for product filtering, empowering users to easily navigate and refine their footwear choices with precision and efficiency. ",
+    highlights:
+      "marqueen | sidebar | dynamic height-calculation collapses | multiple-sorting filters | price-input restriction | clear function | pagination ",
   },
 
   {
@@ -99,7 +100,7 @@ export const projects = [
     title: "Furniture Store Add-Ons",
     tools:
       "HTML&CSS | Javascript | React/React-Router-Dom | Redux | Tailwind | DaisyUI | Toastify | Axios",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "Take on John Smilga's project, add on ",
     highlights: "",
   },
 ];

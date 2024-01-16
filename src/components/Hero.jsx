@@ -28,11 +28,19 @@ const Hero = () => {
     };
   }, []);
 
+  let timeoutId;
+
   const handleIconClick = () => {
-    setIsHover(false);
     const link = links[currentIconIndex];
     const target = currentIconIndex === 0 || 3 ? "_self" : "_blank";
     window.open(link, target);
+
+    clearTimeout(timeoutId);
+
+    // Set a timeout to delay setIsHover(false) for 4 seconds
+    timeoutId = setTimeout(() => {
+      setIsHover(false);
+    }, 4000);
   };
 
   return (

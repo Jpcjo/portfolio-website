@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import { useEffect } from "react";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Skills />
       <About />
       <Projects />
+      <Footer />
     </>
   );
 };

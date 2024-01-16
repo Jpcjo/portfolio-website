@@ -78,7 +78,7 @@ export const projects = [
       "HTML&CSS | Javascript | React/React-Router-Dom | Redux | Tailwind | Toastify",
     text: "This CRUD app for managing user reviews is designed to enable the creation, modification, and deletion of personalized reviews based on individual login credentials. Built from scratch, no libraries.  ",
     highlights:
-      "Tabs | copy to clipboard | business hour formats basing on local-time | user log-in & log-out & registration | local storage user details & inputs | review filter | pagination | image slides | modals",
+      "Tabs | copy to clipboard | local-time-based dynamic business hour formats | user log-in & log-out & registration | local storage user details & inputs | review filter | pagination | image slides | modals",
   },
   {
     id: nanoid(),
@@ -100,7 +100,8 @@ export const projects = [
     title: "Furniture Store Add-Ons",
     tools:
       "HTML&CSS | Javascript | React/React-Router-Dom | Redux | Tailwind | DaisyUI | Toastify | Axios",
-    text: "Take on John Smilga's project, add on ",
-    highlights: "",
+    text: "Enhance John Smilga's e-commerce project by incorporating dynamic functionalities and introducing innovative design elements to showcase and elevate the overall project accessibility and UX/UI.",
+    highlights:
+      "hamburger drop-down | nav search bar | retractable navbar | Quick Add | bounce cart button | pop-up cart sidebar delete / modify / remove functions & express check-out | collapse | about us ",
   },
 ];

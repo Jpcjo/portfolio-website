@@ -18,8 +18,9 @@ const About = () => {
           <p className="text-slate-600 mt-8 leading-loose">
             As a self-taught web developer, Fay has immersed herself in diverse
             projects since early 2023, thoroughly enjoying the experience. Her
-            acute design instincts, strong interpersonal skills, and systematic
-            problem-solving make her your best junior candidate.
+            acute design instincts, strong interpersonal skills, systematic
+            problem-solving and job-ready skills make her your best junior
+            candidate.
           </p>
         </article>
       </div>

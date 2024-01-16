@@ -3,7 +3,16 @@ import { TbWorldWww } from "react-icons/tb";
 
 import React from "react";
 
-const ProjectsCard = ({ url, img, github, title, text, tools, highlights }) => {
+const ProjectsCard = ({
+  url,
+  img,
+  github,
+  title,
+  text,
+  tools,
+  highlights,
+  index,
+}) => {
   return (
     <article className="bg-gradient-to-r  overflow-hidden from-green-50 to-indigo-50 rounded-lg shadow-md hover:shadow-xl ">
       <a href={url} target="_blank">
@@ -38,7 +47,13 @@ const ProjectsCard = ({ url, img, github, title, text, tools, highlights }) => {
           <p className="  text-slate-700 leading-relaxed"> {text}</p>
         </div>
         <div className="flex flex-row space-x-2 mt-2">
-          <h3 className="  text-slate-700 font-semibold">Features:</h3>
+          <h3
+            className={`text-slate-700 font-semibold ${
+              index === 3 && "whitespace-nowrap"
+            }`}
+          >
+            {index === 3 ? "Add-ons: " : "Features:"}
+          </h3>
           <p className="  text-slate-700 leading-relaxed capitalize">
             {highlights}
           </p>

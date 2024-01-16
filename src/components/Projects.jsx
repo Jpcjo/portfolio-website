@@ -13,8 +13,8 @@ const Projects = () => {
     >
       <SectionTile text="Web Projects" />
       <div className="py-16 grid  md:grid-cols-2 gap-12 ">
-        {projects.map((project) => {
-          return <ProjectsCard key={project.id} {...project} />;
+        {projects.map((project, index) => {
+          return <ProjectsCard key={project.id} index={index} {...project} />;
         })}
       </div>
     </section>

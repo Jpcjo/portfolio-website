@@ -38,15 +38,15 @@ const ProjectsCard = ({
           </div>
         </div>
 
-        <div className="flex flex-row space-x-2 mt-2 capitalize ">
+        <div className="flex flex-col  lg:flex-row lg:space-x-2 mt-2 capitalize ">
           <h3 className="  text-slate-700 font-semibold mr-7">Tools:</h3>
           <p className="  text-slate-700 leading-relaxed "> {tools}</p>
         </div>
-        <div className="flex flex-row space-x-2 mt-2">
+        <div className="flex flex-col lg:flex-row lg:space-x-2 mt-2">
           <h3 className="  text-slate-700 font-semibold mr-[22px]">Focus:</h3>
           <p className="  text-slate-700 leading-relaxed"> {text}</p>
         </div>
-        <div className="flex flex-row space-x-2 mt-2">
+        <div className="flex flex-col lg:flex-row lg:space-x-2 mt-2">
           <h3
             className={`text-slate-700 font-semibold ${
               index === 3 && "whitespace-nowrap"

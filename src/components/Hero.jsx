@@ -29,6 +29,7 @@ const Hero = () => {
   }, []);
 
   const handleIconClick = () => {
+    setIsHover(false);
     const link = links[currentIconIndex];
     const target = currentIconIndex === 0 || 3 ? "_self" : "_blank";
     window.open(link, target);

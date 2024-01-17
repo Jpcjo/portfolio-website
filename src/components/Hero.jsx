@@ -32,7 +32,9 @@ const Hero = () => {
 
   const handleIconClick = () => {
     const link = links[currentIconIndex];
-    const target = currentIconIndex === 0 || 3 ? "_self" : "_blank";
+    const target =
+      currentIconIndex === 0 || currentIconIndex === 3 ? "_self" : "_blank";
+
     window.open(link, target);
 
     clearTimeout(timeoutId);

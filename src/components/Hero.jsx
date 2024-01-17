@@ -13,7 +13,7 @@ const Hero = () => {
   const icons = [IoIosMail, FaLinkedinIn, FaGithubSquare, BsFillTelephoneFill];
   const links = [
     "mailto:fwudesign@gmail.com",
-    "https://www.nike.com",
+    "https://www.linkedin.com/in/faywudesign/",
     "https://github.com/Jpcjo",
     "tel:0401204458",
   ];

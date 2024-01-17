@@ -97,7 +97,7 @@ export const projects = [
     img: fuRN,
     url: "https://furnu-store-fwudesign.netlify.app/",
     github: "https://github.com/Jpcjo/FurNu-Store-e-commerce-",
-    title: "Furniture Store Add-Ons",
+    title: "Furniture Store (Add-Ons)",
     tools:
       "HTML&CSS | Javascript | React/React-Router-Dom | Redux | Tailwind | DaisyUI | Toastify | Axios",
     text: "Enhance John Smilga's e-commerce project by incorporating dynamic functionalities and introducing innovative design elements to showcase and elevate the overall project accessibility and UX/UI.",

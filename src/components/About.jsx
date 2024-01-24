@@ -12,7 +12,7 @@ const About = () => {
         <article>
           <div className="flex flex-row justify-between items-top">
             <SectionTitle text="why fay?" />
-            <a href={fayWuCV} download className="">
+            <a href={fayWuCV} target="_blank" className="">
               <IoDocumentText className="w-10 h-10 text-violet-700  hover:text-violet-600 hover:scale-105 duration-300 hover:animate-pulse" />
             </a>
           </div>

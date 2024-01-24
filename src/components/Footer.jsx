@@ -17,7 +17,7 @@ const Footer = () => {
         <a href="https://github.com/Jpcjo" target="_blank">
           <FaLinkedinIn className="h-7 w-7 text-gray-400 hover:text-sky-600 hover:scale-110 duration-300" />
         </a>
-        <a href={fayWuCV} download>
+        <a href={fayWuCV} target="_blank">
           <IoDocumentText className="h-7 w-7 text-gray-400 hover:text-yellow-600 hover:scale-110 duration-300" />
         </a>
         <a href="mailto:fwudesign@gmail.com">

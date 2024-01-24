@@ -5,8 +5,6 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { IoIosMail } from "react-icons/io";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { IoDocumentText } from "react-icons/io5";
-import { fayWuCV } from "../data";
 
 const Hero = () => {
   const [isHover, setIsHover] = useState(false);

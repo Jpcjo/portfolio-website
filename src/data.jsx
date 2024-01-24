@@ -8,7 +8,7 @@ import allBirds from "../src/assets/allBirds.png";
 import birkFilter from "../src/assets/birkFilter.png";
 import CRUD from "../src/assets/CRUD.png";
 import fuRN from "../src/assets/fuRN.png";
-import fayWuCV from "../src/assets/fayWuCV.pdf";
+import fayWuCV from "../src/assets/FayWuCV.pdf";
 
 export const links = [
   // { id: nanoid(), href: "#home", text: "home" },

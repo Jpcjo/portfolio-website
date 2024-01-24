@@ -18,7 +18,7 @@ const Footer = () => {
           <FaLinkedinIn className="h-7 w-7 text-gray-400 hover:text-sky-600 hover:scale-110 duration-300" />
         </a>
         <a href={fayWuCV} target="_blank">
-          <IoDocumentText className="h-7 w-7 text-gray-400 hover:text-yellow-600 hover:scale-110 duration-300" />
+          <IoDocumentText className="h-7 w-7 text-gray-400 hover:text-violet-700 hover:scale-110 duration-300" />
         </a>
         <a href="mailto:fwudesign@gmail.com">
           <IoIosMail className="h-8 w-8 text-gray-400 hover:text-slate-500 hover:scale-110 duration-300" />

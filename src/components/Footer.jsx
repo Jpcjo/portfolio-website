@@ -5,6 +5,7 @@ import { IoIosMail } from "react-icons/io";
 import { IoDocumentText } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { SiAltiumdesigner } from "react-icons/si";
+import { fayWuCV } from "../data";
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
         <a href="https://github.com/Jpcjo" target="_blank">
           <FaLinkedinIn className="h-7 w-7 text-gray-400 hover:text-sky-600 hover:scale-110 duration-300" />
         </a>
-        <a href="tel:0401204458">
+        <a href={fayWuCV} download>
           <IoDocumentText className="h-7 w-7 text-gray-400 hover:text-yellow-600 hover:scale-110 duration-300" />
         </a>
         <a href="mailto:fwudesign@gmail.com">

@@ -8,6 +8,7 @@ import allBirds from "../src/assets/allBirds.png";
 import birkFilter from "../src/assets/birkFilter.png";
 import CRUD from "../src/assets/CRUD.png";
 import fuRN from "../src/assets/fuRN.png";
+import fayWuCV from "../src/assets/fayWuCV.pdf";
 
 export const links = [
   // { id: nanoid(), href: "#home", text: "home" },
@@ -64,7 +65,7 @@ export const projects = [
     github: "https://github.com/Jpcjo/SingleProudct-Page-Component",
     title: "Product Page Component",
     tools: "HTML&CSS | Javascript | React | Redux | Tailwind",
-    text: "Built from scratch, no libraries. This project focuses on a sophisticated sneaker product page, encompassing various interactive components, including detailed product information, Q&A features, customer reviews, and additional functionalities. ",
+    text: "Built from scratch, no pre-builds. This project focuses on a sophisticated sneaker product page, encompassing various interactive components, including detailed product information, Q&A features, customer reviews, and additional functionalities. ",
     highlights:
       "carousel | modal slides | products selection & display  | Q&A accordion | product card slides | review search & filter functions | pagination",
   },
@@ -76,7 +77,7 @@ export const projects = [
     title: "CRUD Review",
     tools:
       "HTML&CSS | Javascript | React/React-Router-Dom | Redux | Tailwind | Toastify",
-    text: "This CRUD app for managing user reviews is designed to enable the creation, modification, and deletion of personalized reviews based on individual login credentials. Built from scratch, no libraries.  ",
+    text: "This CRUD app for managing user reviews is designed to enable the creation, modification, and deletion of personalized reviews based on individual login credentials. Built from scratch, no pre-builds.  ",
     highlights:
       "Tabs | copy to clipboard | local-time-based dynamic business hour formats | user log-in & log-out & registration | local storage user details & inputs | review filter | pagination | image slides | modals",
   },
@@ -87,7 +88,7 @@ export const projects = [
     github: "https://github.com/Jpcjo/birk-products-filter",
     title: "Products Filter Component",
     tools: "HTML&CSS | Javascript | React | Redux | Tailwind ",
-    text: "Built from scratch, no libraries. Introducing this dynamic React component tailored for product filtering, empowering users to easily navigate and refine their footwear choices with precision and efficiency. ",
+    text: "Built from scratch, no pre-builds. Introducing this dynamic React component tailored for product filtering, empowering users to easily navigate and refine their footwear choices with precision and efficiency. ",
     highlights:
       "marqueen | sidebar | dynamic height-calculation collapses | multiple-sorting filters | price-input restriction | clear function | pagination ",
   },
@@ -105,3 +106,5 @@ export const projects = [
       "hamburger drop-down | nav search bar | retractable navbar | Quick Add | bounce cart button | pop-up cart sidebar delete / modify / remove functions & express check-out | collapse | about us ",
   },
 ];
+
+export { fayWuCV };

@@ -5,6 +5,8 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { IoIosMail } from "react-icons/io";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { IoDocumentText } from "react-icons/io5";
+import { fayWuCV } from "../data";
 
 const Hero = () => {
   const [isHover, setIsHover] = useState(false);
@@ -66,11 +68,16 @@ const Hero = () => {
             Who crafts seamless experiences, one line of code at a time.
           </p>
 
-          <a href="#projects">
-            <div className="btn mt-8 bg-violet-700 text-white text-lg hover:bg-violet-600 hover:scale-105 duration-300 hover:animate-pulse">
-              Projects
-            </div>
-          </a>
+          <div className="flex flex-row gap-x-8">
+            <a href="#projects">
+              <div className="btn mt-8 bg-violet-700 text-white text-lg hover:bg-violet-600 hover:scale-105 duration-300 hover:animate-pulse">
+                Projects
+              </div>
+            </a>
+            {/* <a href={fayWuCV} download>
+              <IoDocumentText className="mt-8 w-12 h-12 text-violet-700  hover:text-violet-600 hover:scale-105 duration-300 hover:animate-pulse" />
+            </a> */}
+          </div>
 
           {/* <div className="flex gap-x-4 mt-4 items-center ">
             <a href="https://github.com/Jpcjo" target="_blank">

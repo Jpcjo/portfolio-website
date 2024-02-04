@@ -54,11 +54,12 @@ const Navbar = () => {
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
+    console.log("1:", lastScrollY);
     const scrollThreshold = 300;
 
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-
+      console.log("2:", currentScrollY);
       if (currentScrollY > lastScrollY && currentScrollY > scrollThreshold) {
         setIsHidden(true);
       } else {
@@ -66,6 +67,7 @@ const Navbar = () => {
       }
 
       lastScrollY = currentScrollY;
+      console.log("3:", lastScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);

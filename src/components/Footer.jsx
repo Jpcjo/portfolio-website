@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://github.com/Jpcjo" target="_blank">
           <FaGithubSquare className="h-7 w-7 text-gray-400 hover:text-slate-700 hover:scale-110 duration-300" />
         </a>
-        <a href="https://github.com/Jpcjo" target="_blank">
+        <a href="https://www.linkedin.com/in/faywudesign/" target="_blank">
           <FaLinkedinIn className="h-7 w-7 text-gray-400 hover:text-sky-600 hover:scale-110 duration-300" />
         </a>
         <a href={fayWuCV} target="_blank">

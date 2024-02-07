@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaGithubSquare, FaLinkedinIn } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoDocumentText } from "react-icons/io5";

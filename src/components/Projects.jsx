@@ -1,6 +1,5 @@
 import ProjectsCard from "./ProjectsCard";
 import { projects } from "../data";
-import SectionTitle from "../components/SectionTile";
 
 import React from "react";
 import SectionTile from "../components/SectionTile";

@@ -19,6 +19,5 @@ const Skills = () => {
     </section>
   );
 };
-//text="tech stack" is a prop to pass on
 
 export default Skills;

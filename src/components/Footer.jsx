@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedinIn } from "react-icons/fa";
-import { AiTwotoneMail } from "react-icons/ai";
 import { IoIosMail } from "react-icons/io";
 import { IoDocumentText } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";

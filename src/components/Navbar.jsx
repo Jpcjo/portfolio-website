@@ -1,13 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { links } from "../data";
 import { SiAltiumdesigner } from "react-icons/si";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { IoDocumentText } from "react-icons/io5";
 
 const Navbar = () => {
   const [hovered, setHovered] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
-  const [isMenuShown, setIsMenuShown] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

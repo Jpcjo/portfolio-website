@@ -1,5 +1,4 @@
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
-import { TbWorldWww } from "react-icons/tb";
+import { FaGithubSquare } from "react-icons/fa";
 
 import React from "react";
 
@@ -29,9 +28,6 @@ const ProjectsCard = ({
             {title}
           </h2>
           <div className=" flex gap-x-4">
-            {/* <a href={url} target="_blank">
-              <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-sky-500 hover:scale-125 duration-300" />
-            </a> */}
             <a href={github} target="_blank">
               <FaGithubSquare className="h-8 w-8 text-slate-400 hover:text-gray-800 hover:scale-110 duration-300" />
             </a>

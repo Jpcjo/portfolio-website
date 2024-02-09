@@ -61,17 +61,6 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: allBirds,
-    url: "https://singleproduct-page-fwudesign.netlify.app/",
-    github: "https://github.com/Jpcjo/SingleProudct-Page-Component",
-    title: "Product Page Component",
-    tools: "HTML&CSS | Javascript | React | Redux | Tailwind",
-    text: "Built from scratch, no pre-builds. This project focuses on a sophisticated sneaker product page, encompassing various interactive components, including detailed product information, Q&A features, customer reviews, and additional functionalities. ",
-    highlights:
-      "carousel | modal slides | products selection & display  | Q&A accordion | product card slides | review search & filter functions | pagination",
-  },
-  {
-    id: nanoid(),
     img: CRUD,
     url: "https://crud-review-app-fwudesign.netlify.app/",
     github: "https://github.com/Jpcjo/crud-review-app",
@@ -81,6 +70,17 @@ export const projects = [
     text: "This CRUD app for managing user reviews is designed to enable the creation, modification, and deletion of personalized reviews based on individual login credentials. Built from scratch, no pre-builds.  ",
     highlights:
       "Tabs | copy to clipboard | local-time-based dynamic business hour formats | user log-in & log-out & registration | local storage user details & inputs | review filter | pagination | image slides | modals",
+  },
+  {
+    id: nanoid(),
+    img: allBirds,
+    url: "https://singleproduct-page-fwudesign.netlify.app/",
+    github: "https://github.com/Jpcjo/SingleProudct-Page-Component",
+    title: "Product Page Component",
+    tools: "HTML&CSS | Javascript | React | Redux | Tailwind",
+    text: "Built from scratch, no pre-builds. This project focuses on a sophisticated sneaker product page, encompassing various interactive components, including detailed product information, Q&A features, customer reviews, and additional functionalities. ",
+    highlights:
+      "carousel | modal slides | products selection & display  | Q&A accordion | product card slides | review search & filter functions | pagination",
   },
   {
     id: nanoid(),

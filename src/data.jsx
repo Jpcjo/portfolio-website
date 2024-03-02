@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 import allBirds from "../src/assets/allBirds.png";
 import birkFilter from "../src/assets/birkFilter.png";
@@ -52,9 +53,9 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: "Axios",
-    icon: <SiAxios className="h-12 w-12 text-slate-400" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    title: "NextJs",
+    icon: <TbBrandNextjs className="h-12 w-12 text-slate-400" />,
+    text: "Proficient in Next.js, I leverage its capabilities to create dynamic and engaging web experiences.",
   },
 ];
 
